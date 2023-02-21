@@ -5,7 +5,23 @@ const Budget = () => {
     return (
         <div className='alert alert-secondary'>
             <span>Budget: £{budget}</span>
+        
+            <input
+                       
+                        required='required'
+                        type='number'
+                        id='cost'
+                        
+                        style={{ marginLeft: '2rem' , size: 10}}
+                        
+                        >
+
+                            
+                        </input>
+          
         </div>
+      
+        
     );
 };
 export default Budget;
