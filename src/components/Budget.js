@@ -4,7 +4,7 @@ const Budget = () => {
     const { budget } = useContext(AppContext);
     return (
         <div className='alert alert-secondary'>
-            <span>Budget: £{budget}</span>
+            <span>Budget: £ {/*budget*/}</span>
         
             <input
                        
@@ -12,10 +12,10 @@ const Budget = () => {
                         type='number'
                         id='cost'
                         
-                        style={{ marginLeft: '2rem' , size: 10}}
+                  
                         
                         >
-
+ 
                             
                         </input>
           
